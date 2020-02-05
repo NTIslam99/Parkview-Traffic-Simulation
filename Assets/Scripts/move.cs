@@ -10,6 +10,7 @@ public class move : MonoBehaviour
     public GameObject target1;
     public GameObject target2;
     public GameObject target3;
+    public GameObject target4;
     public int point = 1;
     public GameObject car;
 
@@ -25,7 +26,8 @@ public class move : MonoBehaviour
     void Update()
     {
         switch (point) {
-            case 1: car.transform.position = Vector3.MoveTowards(car.transform.position, target1.transform.position, 3 * Time.deltaTime);
+            case 1:
+                car.transform.position = Vector3.MoveTowards(car.transform.position, target1.transform.position, 3 * Time.deltaTime);
                 if (car.transform.position == target1.transform.position)
                 {
                     Thread.Sleep(3000);
@@ -36,12 +38,23 @@ public class move : MonoBehaviour
                 car.transform.position = Vector3.MoveTowards(car.transform.position, target2.transform.position, 3 * Time.deltaTime);
                 if (car.transform.position == target2.transform.position)
                 {
-                    Thread.Sleep(3000);
+                  //  Thread.Sleep(3000);
                     point = 3;
                 }
                 break;
             case 3:
-                car.transform.position = Vector3.MoveTowards(car.transform.position, target3.transform.position, 3 * Time.deltaTime);
+                car.transform.position = Vector3.MoveTowards(car.transform.position, target3.transform.position, 2 * Time.deltaTime);
+                if (car.transform.position == target3.transform.position)
+                {
+                    point = 4;
+                }
+                break;
+            case 4:
+                car.transform.position = Vector3.MoveTowards(car.transform.position, target4.transform.position, 3 * Time.deltaTime);
+                if (car.transform.position == target4.transform.position)
+                {
+                    point = 5;
+                }
                 break;
             default:
                 break;
