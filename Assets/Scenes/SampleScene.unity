@@ -2377,7 +2377,7 @@ MonoBehaviour:
   target1: {fileID: 782483332}
   target2: {fileID: 49694373}
   target3: {fileID: 1505627049}
-  target4: {fileID: 0}
+  target4: {fileID: 1880144773}
   point: 1
   car: {fileID: 1495780283}
 --- !u!135 &1495780285
