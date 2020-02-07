@@ -230,7 +230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &49694374
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -864,7 +864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &782483333
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1707,8 +1707,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target1: {fileID: 782483332}
-  target2: {fileID: 1505627049}
-  target3: {fileID: 2092189009}
+  target2: {fileID: 49694373}
+  target3: {fileID: 1505627049}
+  target4: {fileID: 2092189009}
   point: 1
   car: {fileID: 1495780283}
 --- !u!135 &1495780285
@@ -1802,7 +1803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &1505627050
 SphereCollider:
   m_ObjectHideFlags: 0
