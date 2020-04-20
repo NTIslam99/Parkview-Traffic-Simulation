@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 24
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -166,7 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 1296726047}
+  - {fileID: 524697884}
+  - {fileID: 1790567310}
   id: 8
   waypoints:
   - {fileID: 635711241}
@@ -470,7 +473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 858285833}
+  - {fileID: 1922008687}
   id: 3
   waypoints:
   - {fileID: 567626182}
@@ -1983,7 +1988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 1223173168}
+  - {fileID: 858285833}
   id: 1
   waypoints:
   - {fileID: 202226383}
@@ -4707,7 +4714,7 @@ PrefabInstance:
     - target: {fileID: 7118174905381296724, guid: 7524d07406fe4e844a7b65bbcbe13d8f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -47.93
+      value: -47.74
       objectReference: {fileID: 0}
     - target: {fileID: 7118174905381296724, guid: 7524d07406fe4e844a7b65bbcbe13d8f,
         type: 3}
@@ -4732,7 +4739,7 @@ PrefabInstance:
     - target: {fileID: 7118174905381296724, guid: 7524d07406fe4e844a7b65bbcbe13d8f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7118174905381296724, guid: 7524d07406fe4e844a7b65bbcbe13d8f,
         type: 3}
@@ -5061,8 +5068,7 @@ MonoBehaviour:
   - {fileID: 2126973008}
   - {fileID: 1790567310}
   - {fileID: 1922008687}
-  intersections:
-  - {fileID: 0}
+  intersections: []
   curSegment: {fileID: 1790567310}
 --- !u!4 &676069673
 Transform:
@@ -6569,7 +6575,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 524697884}
+  - {fileID: 1565124432}
+  - {fileID: 1296726047}
   id: 4
   waypoints:
   - {fileID: 1193661091}
@@ -7150,7 +7159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961763511}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.8, y: 1.4500002, z: -45.7}
+  m_LocalPosition: {x: -6.8, y: 1.4500002, z: -46.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1956635262}
@@ -7171,7 +7180,7 @@ MonoBehaviour:
   intersectionType: 0
   id: 0
   prioritySegments:
-  - {fileID: 1631009868}
+  - {fileID: 12032848}
   - {fileID: 858285833}
   lightsDuration: 5
   orangeLightDuration: 2
@@ -7462,12 +7471,12 @@ Transform:
   - {fileID: 290787152}
   - {fileID: 444623573}
   - {fileID: 1143756069}
-  - {fileID: 1396453452}
   - {fileID: 1176872361}
   - {fileID: 1229634517}
   - {fileID: 1664786361}
   - {fileID: 1605220632}
   - {fileID: 458648310}
+  - {fileID: 1396453452}
   - {fileID: 1181173915}
   - {fileID: 1326378926}
   - {fileID: 269723701}
@@ -7475,23 +7484,23 @@ Transform:
   - {fileID: 106864234}
   - {fileID: 253175391}
   - {fileID: 997632228}
-  - {fileID: 1727214339}
   - {fileID: 1058979458}
+  - {fileID: 1727214339}
   - {fileID: 1336171900}
   - {fileID: 2126185814}
+  - {fileID: 665231128}
   - {fileID: 2121961204}
   - {fileID: 1064337073}
   - {fileID: 1683682776}
   - {fileID: 633753065}
-  - {fileID: 1323644259}
-  - {fileID: 892845587}
-  - {fileID: 665231128}
   - {fileID: 477005775}
-  - {fileID: 1598010094}
+  - {fileID: 1323644259}
   - {fileID: 76569879}
+  - {fileID: 892845587}
+  - {fileID: 390617094}
+  - {fileID: 1598010094}
   - {fileID: 709811083}
   - {fileID: 64529822}
-  - {fileID: 390617094}
   - {fileID: 716858868}
   - {fileID: 1193214280}
   - {fileID: 98075594}
@@ -10637,7 +10646,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 260997657}
+  - {fileID: 998821814}
   id: 9
   waypoints:
   - {fileID: 142211652}
@@ -11542,8 +11553,8 @@ Transform:
   - {fileID: 479914205}
   - {fileID: 614474631}
   - {fileID: 572664543}
-  - {fileID: 1446057162}
   - {fileID: 286477098}
+  - {fileID: 1446057162}
   - {fileID: 997694160}
   - {fileID: 1836797027}
   - {fileID: 1422219218}
@@ -11552,8 +11563,8 @@ Transform:
   - {fileID: 587023224}
   - {fileID: 219962465}
   - {fileID: 787280729}
-  - {fileID: 1528813039}
   - {fileID: 197852362}
+  - {fileID: 1528813039}
   - {fileID: 109070185}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -12817,7 +12828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 1565124432}
+  - {fileID: 1296726047}
+  - {fileID: 1790567310}
   id: 6
   waypoints:
   - {fileID: 246176116}
@@ -13659,7 +13673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 1922008687}
+  - {fileID: 1223173168}
   id: 12
   waypoints:
   - {fileID: 1503904449}
@@ -13712,7 +13728,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 260997657}
+  - {fileID: 2126973008}
   id: 0
   waypoints:
   - {fileID: 1531804137}
@@ -14359,7 +14377,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 998821814}
+  - {fileID: 2126973008}
   id: 13
   waypoints:
   - {fileID: 1021253177}
@@ -15558,7 +15578,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c0d85471449dd49be2e12eca329466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSegments: []
+  nextSegments:
+  - {fileID: 1790567310}
+  - {fileID: 524697884}
+  - {fileID: 1565124432}
   id: 11
   waypoints:
   - {fileID: 2025955996}
